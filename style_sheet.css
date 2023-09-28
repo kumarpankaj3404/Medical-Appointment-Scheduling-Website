@@ -1,0 +1,22 @@
+body{
+    background-color: cadetblue;
+}
+.sitename{
+    color: blue;
+    text-align: left;
+    font-family: Franklin Gothic Medium;
+    width: 25;
+}
+.logo{
+    width: 30px;
+    
+}
+.topofpage{
+    display: flex;
+    background-color:burlywood;
+    color: rgb(62, 200, 88);
+    align-items: center;
+  }
+.topofpage img {
+   margin: 0 30px
+}
