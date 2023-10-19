@@ -34,3 +34,17 @@ body{
 .Sign-in{
     color:rgb(0, 0, 0);
 }
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: larger;
+}
+.form{
+  width: 500px;
+  padding: 50px;
+  margin: 20px auto;
+}
+input{
+  background: none;
+  border-color: black;
+}
