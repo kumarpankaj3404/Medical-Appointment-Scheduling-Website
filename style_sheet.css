@@ -1,11 +1,15 @@
 body{
     background-image: url(maxresdefault.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .sitename{
     color: blue;
-    text-align: left;
     font-family: Franklin Gothic Medium;
     width: 25;
+    margin-left: auto;
+    margin-right: auto;
 }
 .logo{
     width: 30px;
@@ -13,10 +17,17 @@ body{
 }
 .topofpage{
     display: flex;
-    background-color:burlywood;
-    color: rgb(62, 200, 88);
+    background-color:rgb(97, 192, 60);
+    color: rgb(11, 11, 11);
     align-items: center;
   }
 .topofpage img {
    margin: 0 30px
 }
+.hover-option {
+    display: none;
+  }
+  
+  .hover-container:hover .hover-option {
+    display: block;
+  }
